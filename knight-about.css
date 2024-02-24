@@ -1,0 +1,157 @@
+body{
+    background-color: whitesmoke;
+}
+#div1{
+   border:solid 2px white;
+   height:630px; 
+   background-image: url(https://knight-bite.com/res/about/banner.webp);
+   background-size: cover;
+}
+header{
+    /* border:solid 2px rgb(200, 192, 192); */
+    border-top:none;
+    display:flex;
+    flex-direction: row;
+    position:fixed;
+    width:98.5%;
+    background-color:rgba(0,0,0,0.12);
+}
+img{
+    height:40px;
+    padding-left:3%;
+    margin-top:17px; 
+}
+.c3{
+    /* height:40px;*/
+    margin-top:25px; 
+    font-size:20px;
+    font-weight:bold;
+    color:white;
+    margin-left:10px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+}
+a:hover{
+    color:#cd26bc; 
+}
+ol{
+    /* border:2px solid black; */
+    height:30px;
+    display:flex;
+    list-style-type: none;
+    width:280px;
+    word-spacing:20px;
+    padding-left:30px;
+    justify-content: space-evenly;
+    margin-top:30px;
+    margin-left:50%;
+}
+#h1{
+    margin-top:150px;
+    margin-left:90px;
+    font-size:45px;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
+.img2{
+    height:70px;
+    margin-top:50px;
+    margin-left:80px;
+   
+}
+p{
+    font-size:22px;
+    line-height:25px;
+}
+#flex-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top:70px;
+}
+.img3{
+    height:350px;
+    width:530px;
+}
+#container{
+    display:flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    margin-top:50px;
+}
+.p1{
+    font-size:22px;
+    margin-top:90px;
+    line-height:25px;
+}
+.img4{
+    height:350px;
+    width:540px;
+    margin-left:-10px;
+}
+#contain1{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:50px;
+}
+.p3{
+    margin-top:160px;
+    line-height: 25px;
+}
+#l1{
+    
+    font-size:40px;
+    margin-left:-88px;
+}
+pre{
+    margin-left:-180px;
+    font-size:20px;
+    font-weight:bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+#contain{
+    display:flex;
+    /* border:solid 2px black; */
+    width:250px;
+    justify-content: space-evenly;
+    margin-top:-10px;
+}
+#h3{
+    font-size:40px;
+}
+#m4{
+    display:flex;
+    justify-content: space-around;
+    margin-top:50px;
+}
+.m3-items{
+    margin-top:70px;
+    margin-left:-30px;
+}
+.hov1:hover{
+    height:50px;
+ }
+
+ #footer{
+    height:40px;
+    text-align:center;
+    margin-top:30px;
+    padding:10px;
+    color:white;
+    background: linear-gradient(90deg, #C77BF4 0%, #FF5672 100%);
+    box-shadow:-5px -5px 19px rgba(0, 0, 0, 0.23);
+ }
+ .copy{
+    font-size:15px;
+ }
+.mes{
+    height:60px;
+    width:60px;
+    margin-left:90%;
+    margin-top:-70px;
+    position:fixed;
+}
